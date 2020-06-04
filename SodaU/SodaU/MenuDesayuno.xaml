@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="SodaU.MenuDesayuno"
+             Title="Menú de Desayunos">
+
+        <ScrollView>
+            <StackLayout>
+                <AbsoluteLayout>
+                    <!-- Place new controls here -->
+                <BoxView Color="#307CED" WidthRequest="390" HeightRequest="80" AbsoluteLayout.LayoutBounds="0,17,400,35"/>
+                <Label Text="Lunes" FontSize="Title" TextColor="White" AbsoluteLayout.LayoutBounds="150,17,400,111"/>
+                <Image Source="https://estaticos.miarevista.es/media/cache/1140x_thumb/uploads/images/gallery/59e727615bafe8398bddb88d/desayunossanos-int.jpg" AbsoluteLayout.LayoutBounds="15,70,170,90"  WidthRequest="600" HeightRequest = "600" MinimumHeightRequest = "600" MinimumWidthRequest = "600"></Image>
+                    <Image Source="https://www.recetas-nicaragua.com/base/stock/Recipe/119-image/119-image_web.jpg" AbsoluteLayout.LayoutBounds="170,70,210,90"  WidthRequest="600" HeightRequest = "600" MinimumHeightRequest = "600" MinimumWidthRequest = "600"></Image>
+                    <Button     Text="+" 
+                            BorderColor="#2b3c3c" 
+                            BorderWidth="1" 
+                            FontAttributes="Bold" 
+                            BackgroundColor="#307CED" 
+                            BorderRadius="15" 
+                            TextColor="White"  
+                            Margin="0,10,80,25" 
+                            AbsoluteLayout.LayoutBounds="80,160,125,70"/>
+                    <Button     Text="+" 
+                            BorderColor="#2b3c3c" 
+                            BorderWidth="1" 
+                            FontAttributes="Bold" 
+                            BackgroundColor="#307CED" 
+                            BorderRadius="15" 
+                            TextColor="White"  
+                            Margin="0,10,80,25" 
+                            AbsoluteLayout.LayoutBounds="250,160,125,70"/>
+                    <BoxView Color="#307CED" WidthRequest="390" HeightRequest="80" AbsoluteLayout.LayoutBounds="0,230,400,35"/>
+                    <Label Text="Martes" FontSize="Title" TextColor="White" AbsoluteLayout.LayoutBounds="145,230,400,111"/>
+                    <Image Source="https://images.ctfassets.net/sd2voc54sjgs/734NVX9S1OsGweykAeeyCw/ac764744a79024ef52e7c67e67a95bcc/CR_Conoc___el_interesante_origen_del_Gallo_Pinto___.jpg" AbsoluteLayout.LayoutBounds="15,280,170,90"  WidthRequest="600" HeightRequest = "600" MinimumHeightRequest = "600" MinimumWidthRequest = "600"></Image>
+                    <Image Source="https://www.lactaid.com/sites/lactaid_us/files/recipe-images/cherry-cheese_crepes.jpg" AbsoluteLayout.LayoutBounds="180,280,170,90"  WidthRequest="600" HeightRequest = "600" MinimumHeightRequest = "600" MinimumWidthRequest = "600"></Image>
+                    <Button     Text="+" 
+                            BorderColor="#2b3c3c" 
+                            BorderWidth="1" 
+                            FontAttributes="Bold" 
+                            BackgroundColor="#307CED" 
+                            BorderRadius="15" 
+                            TextColor="White"  
+                            Margin="0,10,80,25" 
+                            AbsoluteLayout.LayoutBounds="250,370,125,70"/>
+                    <Button     Text="+" 
+                            BorderColor="#2b3c3c" 
+                            BorderWidth="1" 
+                            FontAttributes="Bold" 
+                            BackgroundColor="#307CED" 
+                            BorderRadius="15" 
+                            TextColor="White"  
+                            Margin="0,10,80,25"  
+                            AbsoluteLayout.LayoutBounds="80,370,125,70"/>
+                    <BoxView Color="#307CED" WidthRequest="390" HeightRequest="80" AbsoluteLayout.LayoutBounds="0,440,400,35"/>
+                    <Label Text="Miercoles" FontSize="Title" TextColor="White" AbsoluteLayout.LayoutBounds="135,440,400,111"/>
+                    <Image Source="https://i.blogs.es/ba0268/arepas1/450_1000.jpg" AbsoluteLayout.LayoutBounds="180,490,170,90"  WidthRequest="600" HeightRequest = "600" MinimumHeightRequest = "600" MinimumWidthRequest = "600"></Image>
+                    <Image Source="https://www.petitchef.es/imgupl/recipe/gallo-pinto-costarricense--md-59669p76925.jpg" AbsoluteLayout.LayoutBounds="15,490,170,90"  WidthRequest="600" HeightRequest = "600" MinimumHeightRequest = "600" MinimumWidthRequest = "600"></Image>
+                    <Button     Text="+" 
+                            BorderColor="#2b3c3c" 
+                            BorderWidth="1" 
+                            FontAttributes="Bold" 
+                            BackgroundColor="#307CED" 
+                            BorderRadius="15" 
+                            TextColor="White"  
+                            Margin="0,10,80,25"  
+                            AbsoluteLayout.LayoutBounds="80,580,125,70"/>
+                    <Button     Text="+" 
+                            BorderColor="#2b3c3c" 
+                            BorderWidth="1" 
+                            FontAttributes="Bold" 
+                            BackgroundColor="#307CED" 
+                            BorderRadius="15" 
+                            TextColor="White"  
+                            Margin="0,10,80,25" 
+                            AbsoluteLayout.LayoutBounds="250,580,125,70"/>
+                    <BoxView Color="#307CED" WidthRequest="390" HeightRequest="80" AbsoluteLayout.LayoutBounds="0,650,400,35"/>
+                    <Label Text="Jueves" FontSize="Title" TextColor="White" AbsoluteLayout.LayoutBounds="140,650,400,111"/>
+                    <Image Source="https://imagenes.milenio.com/D5UpckaLg2U9Hhl0_gDFpI0SOTE=/958x596/https://www.milenio.com/uploads/media/2019/07/03/gallo-pinto-plato-tipico-costa_0_20_731_455.jpg" AbsoluteLayout.LayoutBounds="180,700,170,90"  WidthRequest="600" HeightRequest = "600" MinimumHeightRequest = "600" MinimumWidthRequest = "600"></Image>
+                    <Image Source="https://cdn2.cocinadelirante.com/sites/default/files/styles/gallerie/public/images/2016/10/huevosrancheros.jpg" AbsoluteLayout.LayoutBounds="15,700,170,90"  WidthRequest="600" HeightRequest = "600" MinimumHeightRequest = "600" MinimumWidthRequest = "600"></Image>
+                    <Button     Text="+" 
+                            BorderColor="#2b3c3c" 
+                            BorderWidth="1" 
+                            FontAttributes="Bold" 
+                            BackgroundColor="#307CED" 
+                            BorderRadius="15" 
+                            TextColor="White"  
+                            Margin="0,10,80,25"  
+                            AbsoluteLayout.LayoutBounds="80,790,125,70"/>
+                    <Button     Text="+" 
+                            BorderColor="#2b3c3c" 
+                            BorderWidth="1" 
+                            FontAttributes="Bold" 
+                            BackgroundColor="#307CED" 
+                            BorderRadius="15" 
+                            TextColor="White"  
+                            Margin="0,10,80,25" 
+                            AbsoluteLayout.LayoutBounds="250,790,125,70"/>
+                    <BoxView Color="#307CED" WidthRequest="390" HeightRequest="80" AbsoluteLayout.LayoutBounds="0,870,400,35"/>
+                    <Label Text="Viernes" FontSize="Title" TextColor="White" AbsoluteLayout.LayoutBounds="140,870,400,111"/>
+                <Image Source="https://okdiario.com/img/2018/07/03/receta-de-desayuno-americano-1-655x368.jpg" AbsoluteLayout.LayoutBounds="180,920,170,90"  WidthRequest="600" HeightRequest = "600" MinimumHeightRequest = "600" MinimumWidthRequest = "600"></Image>
+                <Image Source="https://i.pinimg.com/originals/66/29/0d/66290de6f9aaeba707494b9a7981327a.jpg" AbsoluteLayout.LayoutBounds="15,920,170,90"  WidthRequest="600" HeightRequest = "600" MinimumHeightRequest = "600" MinimumWidthRequest = "600"></Image>
+                    <Button     Text="+" 
+                            BorderColor="#2b3c3c" 
+                            BorderWidth="1" 
+                            FontAttributes="Bold" 
+                            BackgroundColor="#307CED" 
+                            BorderRadius="15" 
+                            TextColor="White"  
+                            Margin="0,10,80,25"  
+                            AbsoluteLayout.LayoutBounds="80,1010,125,70"/>
+                    <Button     Text="+" 
+                            BorderColor="#2b3c3c" 
+                            BorderWidth="1" 
+                            FontAttributes="Bold" 
+                            BackgroundColor="#307CED" 
+                            BorderRadius="15" 
+                            TextColor="White"  
+                            Margin="0,10,80,25" 
+                            AbsoluteLayout.LayoutBounds="250,1010,125,70"/>
+                    <BoxView Color="#307CED" WidthRequest="390" HeightRequest="80" AbsoluteLayout.LayoutBounds="0,1080,400,35"/>
+                <Label Text="Sabado" FontSize="Title" TextColor="White" AbsoluteLayout.LayoutBounds="140,1080,400,111"/>
+                    <Image Source="https://1.bp.blogspot.com/-2vxNgkNOyXI/VF1Xe9xUaKI/AAAAAAAAArI/-HhXBFlY3EY/s1600/IMG_1824.JPG" AbsoluteLayout.LayoutBounds="180,1130,170,90"  WidthRequest="600" HeightRequest = "600" MinimumHeightRequest = "600" MinimumWidthRequest = "600"></Image>
+                <Image Source="https://okdiario.com/img/recetas/2016/12/29/desayunos-alrededor-del-mundo-2.jpg" AbsoluteLayout.LayoutBounds="15,1130,170,90"  WidthRequest="600" HeightRequest = "600" MinimumHeightRequest = "600" MinimumWidthRequest = "600"></Image>
+                    <Button     Text="+" 
+                            BorderColor="#2b3c3c" 
+                            BorderWidth="1" 
+                            FontAttributes="Bold" 
+                            BackgroundColor="#307CED" 
+                            BorderRadius="15" 
+                            TextColor="White"  
+                            Margin="0,10,80,25"  
+                            AbsoluteLayout.LayoutBounds="80,1220,125,70"/>
+                    <Button     Text="+" 
+                            BorderColor="#2b3c3c" 
+                            BorderWidth="1" 
+                            FontAttributes="Bold" 
+                            BackgroundColor="#307CED" 
+                            BorderRadius="15" 
+                            TextColor="White"  
+                            Margin="0,10,80,25" 
+                            AbsoluteLayout.LayoutBounds="250,1220,125,70"/>
+                </AbsoluteLayout>
+            </StackLayout>
+        </ScrollView>
+</ContentPage>

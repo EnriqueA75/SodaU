@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="SodaU.LogIn" Title="LOGIN">
+                    
+    <ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="ToolbarItemCompra" Text="" Clicked="MenuSemanal_Clicked"/>
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Content>
+
+        <StackLayout Margin="20">
+            <Entry x:Name="txtEmail" Placeholder="Email" Keyboard="Email" VerticalOptions="CenterAndExpand" WidthRequest="190"/>
+            <Entry x:Name="txtPassword" Placeholder="Contraseña" Keyboard="Default" VerticalOptions="StartAndExpand"  WidthRequest="190"/>
+
+            <Button Text="Ingresar" FontSize="Medium"  BorderRadius="15"  BackgroundColor="Black" TextColor="white" VerticalOptions="CenterAndExpand" HeightRequest="40" WidthRequest="100"/>
+
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

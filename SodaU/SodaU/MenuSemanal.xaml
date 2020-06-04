@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="SodaU.MenuSemanal"
+             Title="Menú Semanal">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="ToolbarItemCompra" Text="🍽️"/>
+    </ContentPage.ToolbarItems>
+
+    <ScrollView>
+        <StackLayout>
+            <AbsoluteLayout>
+                <Image Source="https://www.hola.com/imagenes/cocina/recetas/2013121668746/gallo-pinto/0-256-191/gallo_pinto-1-m.jpg" AbsoluteLayout.LayoutBounds="90,0,175,200"  WidthRequest="600" HeightRequest = "600" MinimumHeightRequest = "600" MinimumWidthRequest = "600"></Image>
+                <Button     Text="DESAYUNOS" 
+                            BorderColor="#2b3c3c" 
+                            BorderWidth="1" 
+                            FontAttributes="Bold" 
+                            BackgroundColor="Black" 
+                            BorderRadius="15" 
+                            TextColor="White"  
+                            Margin="0,10,20,22" 
+                            AbsoluteLayout.LayoutBounds="125,185,127,70"
+                            Clicked="Desayuno_Clicked"
+                            />
+                <Image Source="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Casado_CR2.jpg/220px-Casado_CR2.jpg" AbsoluteLayout.LayoutBounds="90,220,175,200"  WidthRequest="600" HeightRequest = "600" MinimumHeightRequest = "600" MinimumWidthRequest = "600"></Image>
+                <Button     Text="ALMUERZOS" 
+                            BorderColor="#2b3c3c" 
+                            BorderWidth="1" 
+                            FontAttributes="Bold" 
+                            BackgroundColor="Black" 
+                            BorderRadius="15" 
+                            TextColor="White"  
+                            Margin="0,10,20,22" 
+                            AbsoluteLayout.LayoutBounds="125,400,127,70"
+                            Clicked="Almuerzo_Clicked"
+                            />
+                <Image Source="https://cdn2.cocinadelirante.com/sites/default/files/styles/gallerie/public/images/2019/11/recetas-con-huevo-para-el-desayuno-comida-y-cena-baratas.jpg" AbsoluteLayout.LayoutBounds="90,425,175,200"  WidthRequest="600" HeightRequest = "600" MinimumHeightRequest = "600" MinimumWidthRequest = "600"></Image>
+                <Button     Text="CENAS" 
+                            BorderColor="#2b3c3c" 
+                            BorderWidth="1" 
+                            FontAttributes="Bold" 
+                            BackgroundColor="Black" 
+                            BorderRadius="15" 
+                            TextColor="White"  
+                            Margin="0,10,20,22" 
+                            AbsoluteLayout.LayoutBounds="125,590,127,70"
+                            Clicked="Cena_Clicked"
+                            />
+            </AbsoluteLayout>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

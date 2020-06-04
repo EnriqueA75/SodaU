@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="SodaU.MainPage">
+
+
+
+
+    <ContentPage.Content>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+
+            <AbsoluteLayout>
+
+                <StackLayout>
+                    <AbsoluteLayout>
+
+                        <Button Grid.Row="0" Text="Register" 
+                            BorderColor="#2b3c3c" 
+                            BorderWidth="1" 
+                            FontAttributes="Bold" 
+                            BackgroundColor="Black" 
+                            BorderRadius="15" 
+                            TextColor="White" 
+                            HorizontalOptions="End" 
+                            WidthRequest="133" 
+                            HeightRequest="40" 
+                            Margin="0,10,20,22" 
+                            VerticalOptions="End"
+                            AbsoluteLayout.LayoutBounds="30,400"      Clicked="Registro_Clicked"                />
+
+                        <Button     Text="log in" 
+                            BorderColor="#2b3c3c" 
+                            BorderWidth="1" 
+                            FontAttributes="Bold" 
+                            BackgroundColor="Black" 
+                            BorderRadius="15" 
+                            TextColor="White"  
+                            WidthRequest="133" 
+                            HeightRequest="40" 
+                            Margin="0,10,20,22" 
+                            AbsoluteLayout.LayoutBounds="200,400" Clicked="Log_Clicked"/>
+
+
+                        <Image Source="https://sodau.azurewebsites.net/app/img/logo.png" AbsoluteLayout.LayoutBounds="25,122,300,111"/>
+                    </AbsoluteLayout>
+                </StackLayout>
+                <BoxView BackgroundColor="Black" AbsoluteLayout.LayoutBounds="0.5,.5" AbsoluteLayout.LayoutFlags="PositionProportional" WidthRequest="300" HeightRequest="25"   />
+                <BoxView Color="#307CED" AbsoluteLayout.LayoutBounds="0,0.9999,1000,25" AbsoluteLayout.LayoutFlags="PositionProportional"/>
+                <Label Text="Diseñado por: Fsociety" TextColor="Black" AbsoluteLayout.LayoutBounds=".6,1.08,.4,.1" AbsoluteLayout.LayoutFlags="All" FontSize="10" LineBreakMode="WordWrap"/>
+
+            </AbsoluteLayout>
+        </Grid>
+    </ContentPage.Content>
+
+</ContentPage>

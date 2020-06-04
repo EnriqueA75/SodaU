@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="SodaU.Registro">
+    <ContentPage.Content>
+
+        <ScrollView>
+
+            <StackLayout Margin="20">
+
+
+                <Entry x:Name="txtIdentificacion" Placeholder="Identificación" Keyboard="Numeric"/>
+                <Entry x:Name="txtNombre" Placeholder="Nombre" Keyboard="Default" AbsoluteLayout.LayoutBounds="100,240" WidthRequest="175"/>
+                <Entry x:Name="txtApellido1" Placeholder="Apellido 1" Keyboard="Default" AbsoluteLayout.LayoutBounds="100,290" WidthRequest="175"/>
+                <Entry x:Name="txtApellido2" Placeholder="Apellido 2" Keyboard="Default" AbsoluteLayout.LayoutBounds="100,290" WidthRequest="175"/>
+                <Entry x:Name="txtTelefono" Placeholder="Teléfono" Keyboard="Telephone" AbsoluteLayout.LayoutBounds="100,340" WidthRequest="175"/>
+                <Entry x:Name="txtCorreo" Placeholder="Correo" Keyboard="Email" AbsoluteLayout.LayoutBounds="100,390" WidthRequest="175"/>
+                <Entry x:Name="txtContraseña" Placeholder="Contraseña" Keyboard="Default" AbsoluteLayout.LayoutBounds="100,440" WidthRequest="175"/>
+                <Label Text="Categoria" Margin="5" FontSize="Subtitle"/>
+                <Picker x:Name="IdCategoria" />
+
+
+
+
+
+                <Button Text="Registrarse" FontSize="Medium"  BorderRadius="15"  BackgroundColor="Black" TextColor="white" />
+
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

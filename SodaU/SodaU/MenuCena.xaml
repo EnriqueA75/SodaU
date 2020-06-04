@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="SodaU.MenuCena"
+             Title="Menú de Cenas">
+    <ScrollView>
+        <StackLayout>
+            <AbsoluteLayout>
+                <!-- Place new controls here -->
+                <BoxView Color="#307CED" WidthRequest="390" HeightRequest="80" AbsoluteLayout.LayoutBounds="0,17,400,35"/>
+                <Label Text="Lunes" FontSize="Title" TextColor="White" AbsoluteLayout.LayoutBounds="150,17,400,111"/>
+                <Image Source="https://d36tnp772eyphs.cloudfront.net/blogs/2/2017/03/costarica_casado-940x622.jpg" AbsoluteLayout.LayoutBounds="15,70,170,90"  WidthRequest="600" HeightRequest = "600" MinimumHeightRequest = "600" MinimumWidthRequest = "600"></Image>
+                <Image Source="https://eurofitness.com/wp-content/uploads/2019/07/cenas-saludables-de-bajas-calorias-sin-renunciar-al-sabor.jpg" AbsoluteLayout.LayoutBounds="170,70,210,90"  WidthRequest="600" HeightRequest = "600" MinimumHeightRequest = "600" MinimumWidthRequest = "600"></Image>
+                <Button     Text="+" 
+                            BorderColor="#2b3c3c" 
+                            BorderWidth="1" 
+                            FontAttributes="Bold" 
+                            BackgroundColor="#307CED" 
+                            BorderRadius="15" 
+                            TextColor="White"  
+                            Margin="0,10,80,25" 
+                            AbsoluteLayout.LayoutBounds="80,160,125,70"/>
+                <Button     Text="+" 
+                            BorderColor="#2b3c3c" 
+                            BorderWidth="1" 
+                            FontAttributes="Bold" 
+                            BackgroundColor="#307CED" 
+                            BorderRadius="15" 
+                            TextColor="White"  
+                            Margin="0,10,80,25" 
+                            AbsoluteLayout.LayoutBounds="250,160,125,70"/>
+                <BoxView Color="#307CED" WidthRequest="390" HeightRequest="80" AbsoluteLayout.LayoutBounds="0,230,400,35"/>
+                <Label Text="Martes" FontSize="Title" TextColor="White" AbsoluteLayout.LayoutBounds="145,230,400,111"/>
+                <Image Source="https://cdn.ticbeat.com/src/uploads/2019/10/proteina.jpg" AbsoluteLayout.LayoutBounds="15,280,170,90"  WidthRequest="600" HeightRequest = "600" MinimumHeightRequest = "600" MinimumWidthRequest = "600"></Image>
+                <Image Source="https://www.hogarmania.com/archivos/201910/cenas-ligeras-rapidas-xl-1280x720x80xX.jpg" AbsoluteLayout.LayoutBounds="180,280,170,90"  WidthRequest="600" HeightRequest = "600" MinimumHeightRequest = "600" MinimumWidthRequest = "600"></Image>
+                <Button     Text="+" 
+                            BorderColor="#2b3c3c" 
+                            BorderWidth="1" 
+                            FontAttributes="Bold" 
+                            BackgroundColor="#307CED" 
+                            BorderRadius="15" 
+                            TextColor="White"  
+                            Margin="0,10,80,25" 
+                            AbsoluteLayout.LayoutBounds="250,370,125,70"/>
+                <Button     Text="+" 
+                            BorderColor="#2b3c3c" 
+                            BorderWidth="1" 
+                            FontAttributes="Bold" 
+                            BackgroundColor="#307CED" 
+                            BorderRadius="15" 
+                            TextColor="White"  
+                            Margin="0,10,80,25"  
+                            AbsoluteLayout.LayoutBounds="80,370,125,70"/>
+                <BoxView Color="#307CED" WidthRequest="390" HeightRequest="80" AbsoluteLayout.LayoutBounds="0,440,400,35"/>
+                <Label Text="Miercoles" FontSize="Title" TextColor="White" AbsoluteLayout.LayoutBounds="135,440,400,111"/>
+                <Image Source="https://foodloversblog.es/wp-content/uploads/salmon_con_verduras1.jpg" AbsoluteLayout.LayoutBounds="180,490,170,90"  WidthRequest="600" HeightRequest = "600" MinimumHeightRequest = "600" MinimumWidthRequest = "600"></Image>
+                <Image Source="https://e00-telva.uecdn.es/assets/multimedia/imagenes/2019/08/07/15651677789390.jpg" AbsoluteLayout.LayoutBounds="15,490,170,90"  WidthRequest="600" HeightRequest = "600" MinimumHeightRequest = "600" MinimumWidthRequest = "600"></Image>
+                <Button     Text="+" 
+                            BorderColor="#2b3c3c" 
+                            BorderWidth="1" 
+                            FontAttributes="Bold" 
+                            BackgroundColor="#307CED" 
+                            BorderRadius="15" 
+                            TextColor="White"  
+                            Margin="0,10,80,25"  
+                            AbsoluteLayout.LayoutBounds="80,580,125,70"/>
+                <Button     Text="+" 
+                            BorderColor="#2b3c3c" 
+                            BorderWidth="1" 
+                            FontAttributes="Bold" 
+                            BackgroundColor="#307CED" 
+                            BorderRadius="15" 
+                            TextColor="White"  
+                            Margin="0,10,80,25" 
+                            AbsoluteLayout.LayoutBounds="250,580,125,70"/>
+                <BoxView Color="#307CED" WidthRequest="390" HeightRequest="80" AbsoluteLayout.LayoutBounds="0,650,400,35"/>
+                <Label Text="Jueves" FontSize="Title" TextColor="White" AbsoluteLayout.LayoutBounds="140,650,400,111"/>
+                <Image Source="https://viajerocasual.com/wp-content/uploads/2019/10/casado.jpg" AbsoluteLayout.LayoutBounds="180,700,170,90"  WidthRequest="600" HeightRequest = "600" MinimumHeightRequest = "600" MinimumWidthRequest = "600"></Image>
+                <Image Source="https://www.titicupon.com/sites/default/files/imagecache/coupon-slider-responsive/tiquicia_ajust_3_0.jpg" AbsoluteLayout.LayoutBounds="15,700,170,90"  WidthRequest="600" HeightRequest = "600" MinimumHeightRequest = "600" MinimumWidthRequest = "600"></Image>
+                <Button     Text="+" 
+                            BorderColor="#2b3c3c" 
+                            BorderWidth="1" 
+                            FontAttributes="Bold" 
+                            BackgroundColor="#307CED" 
+                            BorderRadius="15" 
+                            TextColor="White"  
+                            Margin="0,10,80,25"  
+                            AbsoluteLayout.LayoutBounds="80,790,125,70"/>
+                <Button     Text="+" 
+                            BorderColor="#2b3c3c" 
+                            BorderWidth="1" 
+                            FontAttributes="Bold" 
+                            BackgroundColor="#307CED" 
+                            BorderRadius="15" 
+                            TextColor="White"  
+                            Margin="0,10,80,25" 
+                            AbsoluteLayout.LayoutBounds="250,790,125,70"/>
+                <BoxView Color="#307CED" WidthRequest="390" HeightRequest="80" AbsoluteLayout.LayoutBounds="0,870,400,35"/>
+                <Label Text="Viernes" FontSize="Title" TextColor="White" AbsoluteLayout.LayoutBounds="140,870,400,111"/>
+                <Image Source="https://alojamientos.top/wp-content/uploads/2018/10/comida-tipica-de-costa-rica-casado.jpg" AbsoluteLayout.LayoutBounds="180,920,170,90"  WidthRequest="600" HeightRequest = "600" MinimumHeightRequest = "600" MinimumWidthRequest = "600"></Image>
+                <Image Source="https://i.pinimg.com/originals/22/b3/d5/22b3d50d9f1f91df89f6eccb3df0cfd4.jpg" AbsoluteLayout.LayoutBounds="15,920,170,90"  WidthRequest="600" HeightRequest = "600" MinimumHeightRequest = "600" MinimumWidthRequest = "600"></Image>
+                <Button     Text="+" 
+                            BorderColor="#2b3c3c" 
+                            BorderWidth="1" 
+                            FontAttributes="Bold" 
+                            BackgroundColor="#307CED" 
+                            BorderRadius="15" 
+                            TextColor="White"  
+                            Margin="0,10,80,25"  
+                            AbsoluteLayout.LayoutBounds="80,1010,125,70"/>
+                <Button     Text="+" 
+                            BorderColor="#2b3c3c" 
+                            BorderWidth="1" 
+                            FontAttributes="Bold" 
+                            BackgroundColor="#307CED" 
+                            BorderRadius="15" 
+                            TextColor="White"  
+                            Margin="0,10,80,25" 
+                            AbsoluteLayout.LayoutBounds="250,1010,125,70"/>
+                <BoxView Color="#307CED" WidthRequest="390" HeightRequest="80" AbsoluteLayout.LayoutBounds="0,1080,400,35"/>
+                <Label Text="Sabado" FontSize="Title" TextColor="White" AbsoluteLayout.LayoutBounds="140,1080,400,111"/>
+                <Image Source="https://www.annarecetasfaciles.com/files/costilla-de-cerdo-en-salsa-barbacoa-casera.jpg" AbsoluteLayout.LayoutBounds="180,1130,170,90"  WidthRequest="600" HeightRequest = "600" MinimumHeightRequest = "600" MinimumWidthRequest = "600"></Image>
+                <Image Source="https://cdn2.cocinadelirante.com/sites/default/files/styles/gallerie/public/receta-de-tortitas-de-avena-con-zanahoria.jpg" AbsoluteLayout.LayoutBounds="15,1130,170,90"  WidthRequest="600" HeightRequest = "600" MinimumHeightRequest = "600" MinimumWidthRequest = "600"></Image>
+                <Button     Text="+" 
+                            BorderColor="#2b3c3c" 
+                            BorderWidth="1" 
+                            FontAttributes="Bold" 
+                            BackgroundColor="#307CED" 
+                            BorderRadius="15" 
+                            TextColor="White"  
+                            Margin="0,10,80,25"  
+                            AbsoluteLayout.LayoutBounds="80,1220,125,70"/>
+                <Button     Text="+" 
+                            BorderColor="#2b3c3c" 
+                            BorderWidth="1" 
+                            FontAttributes="Bold" 
+                            BackgroundColor="#307CED" 
+                            BorderRadius="15" 
+                            TextColor="White"  
+                            Margin="0,10,80,25" 
+                            AbsoluteLayout.LayoutBounds="250,1220,125,70"/>
+            </AbsoluteLayout>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
