@@ -26,8 +26,8 @@
 
 
 
-                <Button Text="Registrarse" FontSize="Medium"  BorderRadius="15"  BackgroundColor="Black" TextColor="white" />
-
+                <Button Text="Registrarse" FontSize="Medium"  BorderRadius="15"  BackgroundColor="Black" TextColor="white"/>
+                <Button Text="Cancelar" FontSize="Medium"  BorderRadius="15"  BackgroundColor="Black" TextColor="white"/>
 
             </StackLayout>
         </ScrollView>

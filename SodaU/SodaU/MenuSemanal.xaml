@@ -7,7 +7,7 @@
              x:Class="SodaU.MenuSemanal"
              Title="Menú Semanal">
     <ContentPage.ToolbarItems>
-        <ToolbarItem x:Name="ToolbarItemCompra" Text="🍽️"/>
+        <ToolbarItem x:Name="ToolbarItemCompra" Text="->" Clicked="ToolbarItemCompra_Clicked"/>
     </ContentPage.ToolbarItems>
 
     <ScrollView>

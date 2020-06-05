@@ -18,7 +18,7 @@ namespace SodaU
         }
         private async void Desayuno_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new MenuDesayuno());
+            await Navigation.PushAsync(new Comidas());
         }
         private async void Almuerzo_Clicked(object sender, EventArgs e)
         {
@@ -27,6 +27,11 @@ namespace SodaU
         private async void Cena_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new MenuCena());
+        }
+
+        private async void ToolbarItemCompra_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Botones());
         }
     }
 }
